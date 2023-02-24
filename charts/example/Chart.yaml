@@ -2,6 +2,6 @@ apiVersion: v2
 name: example
 version: 0.0.5
 maintainers:
-- name: Raman Antanevich
+- name: raman-antanevich
   email: r.antanevich@gmail.com
   url: https://github.com/rantanevich
