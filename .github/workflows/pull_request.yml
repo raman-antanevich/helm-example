@@ -21,8 +21,10 @@ jobs:
     - name: Lint
       run: ct lint --target-branch ${{ github.base_ref }}
 
-    - name: Create kind cluster
-      uses: helm/kind-action@v1.5.0
+    - name: Check chart changes
+      run: ct list-changed --target-branch
+    # - name: Create kind cluster
+    #   uses: helm/kind-action@v1.5.0
 
     - name: Test
       run: ct install
