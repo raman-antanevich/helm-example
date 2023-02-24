@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   example:
   - apiVersion: v2
+    created: "2023-02-24T12:51:53.607269973Z"
+    digest: 9013462e213c3364adec8cb3279fb9bfdd306029da02b0596ae39d47063b47e1
+    maintainers:
+    - email: r.antanevich@gmail.com
+      name: raman-antanevich
+      url: https://github.com/rantanevich
+    name: example
+    urls:
+    - https://github.com/raman-antanevich/helm-example/releases/download/example-0.0.5/example-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     created: "2023-02-24T12:00:50.22509915Z"
     digest: a57e75309b34cfe029d47705b5be176cbf4e9b63b6e8623afcdb7927920ef487
     name: example
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/raman-antanevich/helm-example/releases/download/example-0.0.2/example-0.0.2.tgz
     version: 0.0.2
-generated: "2023-02-24T12:00:50.22510805Z"
+generated: "2023-02-24T12:51:53.60728166Z"
